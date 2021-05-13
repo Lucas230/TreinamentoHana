@@ -1,0 +1,38 @@
+GET http://localhost:4004/api/CategoriasSet HTTP/1.1
+
+###
+
+POST http://localhost:4004/api/ColaboradoresSet HTTP/1.1
+Content-Type: application/json
+
+{
+    "matricula": 123456,
+    "nome": "Thiago Moises",
+    "cargo_ID": "185e3914-5d18-46af-b8c8-62c6013c4234",
+    "area_ID": "a307b805-8ad3-44fa-8d01-8ac6c4302a41"
+}
+
+###
+
+POST http://localhost:4004/api/ColaboradoresSet HTTP/1.1
+Content-Type: application/json
+
+{
+    "matricula": 123457,
+    "nome": "Thomas Yoshiaki",
+    "cargo_ID": "329802b2-d7be-4fcc-a4ef-b25fe3e68357",
+    "area_ID": "c2f50c7a-826e-4dc3-ab84-993455daa5ce"
+}
+
+###
+
+POST http://localhost:4004/api/DespesasSet HTTP/1.1
+Content-Type: application/json
+
+{
+    "descricao": "IFood da Janta",
+    "categoria_ID": "46cb808f-d773-4bf6-9e7c-79b3951ad53d",
+    "dataLancamento": "2021-05-12",
+    "valorTotal": 150.00,
+    "colaborador_ID": "4f5ff77f-2542-47e8-8d04-0cb5ad710128"
+}
